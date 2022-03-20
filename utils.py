@@ -78,7 +78,7 @@ def acc_type(val):
     if(val):
         return "🔒 şəxsi"
     else:
-        return "🔓Public🔓"
+        return "🔓 İctimai"
 
 def yes_or_no(val):
     if(val):
@@ -192,12 +192,12 @@ async def upload(m, bot, chat_id, dir):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-					InlineKeyboardButton("👨🏼‍💻Developer", url='https://t.me/subinps'),
-					InlineKeyboardButton("🤖Other Bots", url="https://t.me/subin_works/122")
+					InlineKeyboardButton("👨🏼‍💻Sahibimr", url='https://t.me/slmmnhusnu'),
+					InlineKeyboardButton("🤖Other Bots", url="https://t.me/husnununblogu")
 				],
 				[
-					InlineKeyboardButton("🔗Source Code", url="https://github.com/subinps/Instagram-Bot"),
-                    InlineKeyboardButton("⚡️Update Channel", url="https://t.me/subin_works")
+					InlineKeyboardButton("🔗 Sahibimin GitHub'u", url="https://github.com/husnudu"),
+                    InlineKeyboardButton("⚡️ Sahibimin kanalı", url="https://t.me/husnumustafayev")
 				]
 			]
 			)
