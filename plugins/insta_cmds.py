@@ -60,7 +60,7 @@ buttons=InlineKeyboardMarkup(
 
 @Client.on_message(filters.command("posts") & filters.private)
 async def post(bot, message):
-    if str(message.from_user.id) != OWNER:
+    if str(message.from_user.id) != USER:
         await message.reply_text(
             HOME_TEXT.format(message.from_user.first_name, message.from_user.id, USER, USER, USER, OWNER),
             reply_markup=buttons,
@@ -96,7 +96,7 @@ async def post(bot, message):
 
 @Client.on_message(filters.command("igtv") & filters.private)
 async def igtv(bot, message):
-    if str(message.from_user.id) != OWNER:
+    if str(message.from_user.id) != USER:
         await message.reply_text(
             HOME_TEXT.format(message.from_user.first_name, message.from_user.id, USER, USER, USER, OWNER),
             reply_markup=buttons,
