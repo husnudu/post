@@ -60,13 +60,7 @@ buttons=InlineKeyboardMarkup(
 
 @Client.on_message(filters.command("posts") & filters.private)
 async def post(bot, message):
-    if str(message.from_user.id) != USER:
-        await message.reply_text(
-            HOME_TEXT.format(message.from_user.first_name, message.from_user.id, USER, USER, USER, OWNER),
-            reply_markup=buttons,
-			disable_web_page_preview=True
-        )
-        return
+    
     text=message.text
     username=USER
     if 1 not in STATUS:
@@ -96,13 +90,7 @@ async def post(bot, message):
 
 @Client.on_message(filters.command("igtv") & filters.private)
 async def igtv(bot, message):
-    if str(message.from_user.id) != USER:
-        await message.reply_text(
-            HOME_TEXT.format(message.from_user.first_name, message.from_user.id, USER, USER, USER, OWNER),
-            reply_markup=buttons,
-			disable_web_page_preview=True
-        )
-        return
+    
     text=message.text
     username=USER
     if 1 not in STATUS:
@@ -135,13 +123,7 @@ async def igtv(bot, message):
 
 @Client.on_message(filters.command("followers") & filters.private)
 async def followers(bot, message):
-    if str(message.from_user.id) != OWNER:
-        await message.reply_text(
-            HOME_TEXT.format(message.from_user.first_name, message.from_user.id, USER, USER, USER, OWNER),
-            reply_markup=buttons,
-			disable_web_page_preview=True
-        )
-        return
+    
     text=message.text
     username=USER
     if 1 not in STATUS:
@@ -180,13 +162,7 @@ async def followers(bot, message):
 
 @Client.on_message(filters.command("followees") & filters.private)
 async def followees(bot, message):
-    if str(message.from_user.id) != OWNER:
-        await message.reply_text(
-            HOME_TEXT.format(message.from_user.first_name, message.from_user.id, USER, USER, USER, OWNER),
-            reply_markup=buttons,
-			disable_web_page_preview=True
-        )
-        return
+    
     text=message.text
     username=USER
     if 1 not in STATUS:
@@ -227,13 +203,7 @@ async def followees(bot, message):
 
 @Client.on_message(filters.command("fans") & filters.private)
 async def fans(bot, message):
-    if str(message.from_user.id) != OWNER:
-        await message.reply_text(
-            HOME_TEXT.format(message.from_user.first_name, message.from_user.id, USER, USER, USER, OWNER),
-            reply_markup=buttons,
-			disable_web_page_preview=True
-        )
-        return
+    
     text=message.text
     username=USER
     if 1 not in STATUS:
@@ -284,13 +254,7 @@ async def fans(bot, message):
 
 @Client.on_message(filters.command("notfollowing") & filters.private)
 async def nfans(bot, message):
-    if str(message.from_user.id) != OWNER:
-        await message.reply_text(
-            HOME_TEXT.format(message.from_user.first_name, message.from_user.id, USER, USER, USER, OWNER),
-            reply_markup=buttons,
-			disable_web_page_preview=True
-        )
-        return
+    
     text=message.text
     username=USER
     if 1 not in STATUS:
@@ -343,13 +307,7 @@ async def nfans(bot, message):
 
 @Client.on_message(filters.command("feed") & filters.private)
 async def feed(bot, message):
-    if str(message.from_user.id) != OWNER:
-        await message.reply_text(
-            HOME_TEXT.format(message.from_user.first_name, message.from_user.id, USER, USER, USER, OWNER),
-            reply_markup=buttons,
-			disable_web_page_preview=True
-        )
-        return
+    
     text=message.text
     username=USER
     count=None
@@ -399,13 +357,7 @@ async def feed(bot, message):
 
 @Client.on_message(filters.command("saved") & filters.private)
 async def saved(bot, message):
-    if str(message.from_user.id) != OWNER:
-        await message.reply_text(
-            HOME_TEXT.format(message.from_user.first_name, message.from_user.id, USER, USER, USER, OWNER),
-            reply_markup=buttons,
-			disable_web_page_preview=True
-        )
-        return
+    
     text=message.text
     username=USER
     if 1 not in STATUS:
@@ -455,13 +407,7 @@ async def saved(bot, message):
 
 @Client.on_message(filters.command("tagged") & filters.private)
 async def tagged(bot, message):
-    if str(message.from_user.id) != OWNER:
-        await message.reply_text(
-            HOME_TEXT.format(message.from_user.first_name, message.from_user.id, USER, USER, USER, OWNER),
-            reply_markup=buttons,
-			disable_web_page_preview=True
-        )
-        return
+    
     text=message.text
     username=USER
     if 1 not in STATUS:
@@ -500,13 +446,7 @@ async def tagged(bot, message):
 
 @Client.on_message(filters.command("story") & filters.private)
 async def story(bot, message):
-    if str(message.from_user.id) != OWNER:
-        await message.reply_text(
-            HOME_TEXT.format(message.from_user.first_name, message.from_user.id, USER, USER, USER, OWNER),
-            reply_markup=buttons,
-			disable_web_page_preview=True
-        )
-        return
+    
     text=message.text
     username=USER
     if 1 not in STATUS:
@@ -545,13 +485,7 @@ async def story(bot, message):
 
 @Client.on_message(filters.command("stories") & filters.private)
 async def stories(bot, message):
-    if str(message.from_user.id) != OWNER:
-        await message.reply_text(
-            HOME_TEXT.format(message.from_user.first_name, message.from_user.id, USER, USER, USER, OWNER),
-            reply_markup=buttons,
-			disable_web_page_preview=True
-        )
-        return
+    
     username=USER
     if 1 not in STATUS:
         await message.reply_text("You Must Login First /login ")
