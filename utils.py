@@ -192,7 +192,7 @@ async def upload(m, bot, chat_id, dir):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-					InlineKeyboardButton("👨🏼‍💻Sahibimr", url='https://t.me/slmmnhusnu'),
+					InlineKeyboardButton("👨🏼‍💻Sahibim", url='https://t.me/slmmnhusnu'),
 					InlineKeyboardButton("🤖Other Bots", url="https://t.me/husnununblogu")
 				],
 				[
