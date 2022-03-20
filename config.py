@@ -33,65 +33,62 @@ Sən istənilən post'u istənilən Instagram hesabından endirə bilərsən.
 <b>Necə endirmək olar:</b>
 
 Bu çox asandır!
-You Need to login into your account by /login. 
+Sənv/login yazmaqla hesabına giriş etməlisən. ⚠️ Diqqət ⚠️ məlumatlar 3-cü şəxs tərəfindən oxunmur.
 
-You have two Options:
+Sənin iki seçimin var:
 
-1. From Username:
+1. İstifadəçi adı daxil etməklə:
 
-Just send any instagram username.
-
-For Example:
-<code>samantharuthprabhuoffl</code>
-<code>subin_p_s_</code>
-<code>_chill_manh_7</code>
-
-
-2. From URL:
-
-You can also sent a post link to download the post or video.
+İstənilən istifadəçi adını göndər.
 
 For Example:
-<code>https://www.instagram.com/p/CL4QbUiLRNW/?utm_medium=copy_link</code>
-<code>https://www.instagram.com/taylorswift/p/CWds7zapgHn/?utm_medium=copy_link</code>
+<code>husnumustafayev75</code>
 
 
-<b>Available Commands and Usage</b>
+2. Link vasitəsilə:
 
-/start - Check wheather bot alive.
-/restart - Restart the bot (If you messed up anything use /restart.)
-/help - Shows this menu.
-/login - Login into your account.
-/logout - Logout of your account.
-/account - Shows the details of logged in account.
+Siz həmçinin post və ya videonu yükləmək üçün bağlantını göndərə bilərsiniz.
 
-/posts <username> - Download posts of any username. Use /posts to download own posts or <code> /posts <username> </code>for others.
-Example : <code>/posts samantharuthprabhuoffl</code>
+Məsələn:
+<code>https://www.instagram.com/p/CbAMPg6KbPJ/?utm_medium=copy_link</code
 
-/igtv <username> - Download IGTV videos from given username. If no username given, downloads your IGTV.
 
-/feed <number of posts to download> - Downloads posts from your feed.If no number specified all posts from feed will be downloaded.
-Example: <code>/feed 10</code> to download latest 10 posts from feed.
+<b>Əlçatan xüsusiyyətlər və istifadə qaydaları </b>
 
-/saved <number of posts to download> - Downloads your saved posts. If no number specified all saved posts will be downloaded.
-Example: <code>/saved 10</code> to download latest 10 saved posts.
+/start - Botun işlək olduğunu test edin.
+/restart - Botu yenidən başlat (Nəysə səhv getdikdə /restart əmrindən istifadə et..)
+/help - Hazırki menyunu göstərər.
+/login - Hesabına giriş etmək üçün əmr.
+/logout - Hesabından çıxış etmək üçün əmr .
+/account - Daxil olunmuş hesab barəsində detalları əldə et.
 
-/followers <username> - Get a list of all followers of given username. If no username given, then your list will be retrieved.
-Example: <code>/followers samantharuthprabhuoffl</code>
+/posts <username> - İstənilən istifadəçinin postlarını endir. Öz postunu və ya <code> /posts <username> </code> digərlərinin postlarını endirmək üçün istifadə et..
+Example : <code>/posts husnumustafayev75</code>
 
-/followees <username> - Get a list of all followees of given username. If no username given, then your list will be retrieved.
+/igtv <username> - Verilmiş istifadəçi adından İGTV - videolarını endirin. Əgər istifadəçi adı verilməzsə sənin İGTV videolarını endirər.
 
-/fans <username> - Get a list of of followees who follow back the given username. If no username given, your list will be retrieved.
+/feed <number of posts to download> - Hesabınızdan postları endirir.Əgər nömrə göstərilməyibsə hesabınızdakı bütün postları endirəcək.
+Nümunə: <code>/feed 10</code> hesabda ən son 10 postu yükləmək üçün .
 
-/notfollowing <username> - Get a list of followees who is not following back the given username.
+/saved <number of posts to download> - Yadda saxlanılan postları endirir. Əgər nömrə göstərilməyibsə hesabınızdakı bütün saxlanılan postları endirəcək.
+Nümunə: <code>/saved 10</code> saxlanmış ən son 10 postu yükləmək üçün .
 
-/tagged <username> - Downloads all posts in which given username is tagged. If nothing given your tagged posts will be downloaded.
+/followers <username> - Verilmiş istifadəçi adının bütün izləyicilərinin siyahısını əldə edin. Heç bir istifadəçi adı verilməyibsə siyahınız bərpa olunacaq.
+Example: <code>/followers husnumustafayev75</code>
 
-/story <username> - Downloads all stories from given username. If nothing given your stories will be downloaded.
+/followees <username> - Verilmiş istifadəçi adının bütün izlədiklərinin siyahısını əldə edin.Heç bir istifadəçi adı verilməyibsə siyahınız bərpa olunacaq
 
-/stories - Downloads all the stories of all your followees.
+/fans <username> - Verilmiş istifadəçi adının geri izləyən izləyicilərin siyahını əldə edin.Heç bir istifadəçi adı verilməyibsə siyahınız bərpa olunacaq
 
-/highlights <username> - Downloads highlights from given username, If nothing given your highlights will be downloaded.
+/notfollowing <username> - Verilmiş istifadəçi adını geri izləməyən izləyicilərin siyahısını əldə edin.
+
+/tagged <username> - İstifadəçi adının tağ edildiyi bütün postları yükləyər. Heç bir əmr verilmədikdə tağ edilmiş postlarınız endiriləcək.
+
+/story <username> - Verilmiş istifadəçi adından bütün hekayələri yükləyir. Heç bir şey verilməzsə hekayələriniz endiriləcək.
+
+/stories - Bütün izlədiklərinizin bütün hekayələrini yükləyin.
+
+/highlights <username> - Verilmiş istifadəçi adından highlight'ları endirir. Əgər heç bir əmr verilməzsə sizin highlight'larınız endiriləcək.
 
 
 """
