@@ -76,7 +76,7 @@ async def download_insta(command, m, dir):
 
 def acc_type(val):
     if(val):
-        return "🔒 Public🔒"
+        return "🔒 şəxsi"
     else:
         return "🔓Public🔓"
 
