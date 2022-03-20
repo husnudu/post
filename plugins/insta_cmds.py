@@ -581,13 +581,7 @@ async def stories(bot, message):
 
 @Client.on_message(filters.command("highlights") & filters.private)
 async def highlights(bot, message):
-    if str(message.from_user.id) != OWNER:
-        await message.reply_text(
-            HOME_TEXT.format(message.from_user.first_name, message.from_user.id, USER, USER, USER, OWNER),
-            reply_markup=buttons,
-			disable_web_page_preview=True
-        )
-        return
+
     username=USER
     if 1 not in STATUS:
         await message.reply_text("You Must Login First /login ")
