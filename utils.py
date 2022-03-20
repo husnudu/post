@@ -76,9 +76,9 @@ async def download_insta(command, m, dir):
 
 def acc_type(val):
     if(val):
-        return "🔒 şəxsi"
+        return "🔒private"
     else:
-        return "🔓 İctimai"
+        return "🔓public"
 
 def yes_or_no(val):
     if(val):
@@ -188,7 +188,7 @@ async def upload(m, bot, chat_id, dir):
     await m.unpin()
     await bot.send_message(
         chat_id=chat_id,
-        text=f"Succesfully Uploaded {up} Files to Telegram.\nIf you found me helpfull Join My Updates Channel",
+        text=f"Uğurla yükləndi {up} fayllar telegrama.\nMəni köməkcil gördünsə göz at",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
