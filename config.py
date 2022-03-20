@@ -11,28 +11,28 @@ class Config:
     STATUS = set(int(x) for x in (S).split())
     L=Instaloader()
     HELP="""
-You can Download almost anything From your Instagram Account.
+Sən istənilən post'u istənilən Instagram hesabından endirə bilərsən.
 
-<b>What Can Be Downloaded?:</b>
+<b>Biz nələri edə bilərik?:</b>
 
-1. All posts of any Profile. (Both Public and Private,for private profiles you need to be a follower.)
-2. All Posts from your feed.
-3. Stories of any profile (Both Public and Private,for private profiles you need to be a follower.)
-4. DP of any profile (No need to follow)
-5. Followers and Followees List of any Profile.
-6. List of followees who follows back the given username.
-7. List of followees who are not following back the given username.
-8. Stories of your Followees.
-9. Tagged posts of any profile.
-10. Your saved Posts.
-11. IGTV videos.
-12. Highlights from any profiles.
-13. Any Public Post from Link(Post/Reels/IGTV)
+1. İstənilən profilin bütün postları  (İctimai olan hesabların postlarını və hesabına giriş etməklə şəxsi postları.)
+2. Sənin bütün postlarını. 
+3. İstənilən profilin story'ni (İctimai olan hesabların postlarını və hesabına giriş etməklə şəxsi postları.)
+4. Profil detallarını.
+5. İstənilən hesabın izləyici və izlədikləri hesablar.
+6. Səni geri izləyən izlədiyin hesablar.
+7. Səni geri izləyən izlədiyin hesablar.
+8. Sənin izlədiyin hesabların story'ləri.
+9. İstənilən profilin tag edilmiş postları .
+10. Sənin yaddaşa vurduğun postlar.
+11. IGTV videoları.
+12. İstənilən profil'in highlight'larını endirmək.
+13. Link vasitəsilə istənilən postu endirmək.
 
 
-<b>How to Download:</b>
+<b>Necə endirmək olar:</b>
 
-Its Easy!!
+Bu çox asandır!
 You Need to login into your account by /login. 
 
 You have two Options:
