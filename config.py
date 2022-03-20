@@ -93,18 +93,15 @@ Example: <code>/followers husnumustafayev75</code>
 
 """
     HOME_TEXT = """
-<b>Helo, [{}](tg://user?id={})
+<b>Salam, [{}](tg://user?id={})
 
-This is a bot of [{}](www.instagram.com/{}) to manage his Instagram account. 
-I can only work for my master [{}](tg://user?id={}).
-But you can Deploy the same bot for your use from the below source code.
 
 Use /help to know What I can Do?</b>
 """
     HOME_TEXT_OWNER = """
-<b>Helo, [{}](tg://user?id={})
-I am your assistant to manage your Instagram account.
+<b>Salam, [{}](tg://user?id={})
+Sənin hesabını idarə etmək üçün nəzərdə tutulmuş köməkçinizəm.
 
-Use /help to know what I can do for you.</b>
+Sizin üçün nə edə biləcəyimi bilmək üçün /help əmrindən istifadə edin.</b>
 """
 
