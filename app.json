@@ -8,32 +8,32 @@
       "download",
       "bot"
     ],
-    "repository": "https://github.com/subinps/Instagram-Bot",
+    "repository": "https://github.com/husnudu/post",
     "env": {
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
-        "value": ""
+        "value": "14270352"
       },
       "API_HASH": {
         "description": "Get this value from https://my.telegram.org",
-        "value": ""
+        "value": "e0dd658f5f82f5ece8bc0d702250b3b4"
       },
       "BOT_TOKEN": {
         "description": "Your bot token from @BotFather",
-        "value": ""
+        "value": "5246028269:AAE-ewRtLmC6xGzU-Ep8_TrRBRavvl2-KGs"
       },
       "OWNER_ID": {
         "description": "Enter Your Telegram id",
-        "value": ""
+        "value": "1527233052"
       },
       "INSTAGRAM_USERNAME": {
         "description": "Enter your Instagram Username without @ , Example: samantharuthprabhuoffl",
-        "value": ""
+        "value": "husnufakefortg"
       },
       "INSTA_SESSIONFILE_ID": {
         "description": "Read README in GitHub",
-        "value": "",
-        "required": false
+        "value": "BQACAgIAAxkDAAMCYjdbZCklWA1-5KzD4s_XBmXTDE0AAvUXAAK8z7lJl8RCSpd3BYseBA",
+        "required": true
       }
       
     },
